@@ -307,6 +307,11 @@ h1 span {
   width: 50%;
 }
 
+.icons .icon:hover {
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+}
+
 .footer {
   background-color: #1d2b3d;
 }
@@ -445,5 +450,15 @@ h3 {
 
 .text-danger {
   color: #bd3876;
+}
+
+.bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

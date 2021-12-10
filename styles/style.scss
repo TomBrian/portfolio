@@ -227,6 +227,11 @@ h1 {
 .icons{
 	min-width: 300px;
 	width: 50%;
+	.icon{
+		&:hover {
+							animation: shake 0.5s;
+					}
+}
 }
 .footer{
 	background-color: $darkgrey;
@@ -316,4 +321,15 @@ h3 {
 }
 .text-danger {
 	color: $crimson;
+}
+.bg{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a{
+	&:hover{
+		text-decoration: none;
+	}
 }
