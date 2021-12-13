@@ -295,6 +295,13 @@ h3 {
 	font-size: 18px;
 	font-weight: bold;
 }
+a{
+	&:not(.blank){
+       &:hover{
+		   color: $crimson !important;
+	   }
+	}
+}
 .all-caps {
 	text-transform: uppercase;
 	&.red {
