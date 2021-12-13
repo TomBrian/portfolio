@@ -1,6 +1,7 @@
 body {
   width: 100vw;
   min-height: 100vh;
+  scroll-behavior: smooth;
   color: white;
   background-color: black;
   font-family: 'nunito', sans-serif;
